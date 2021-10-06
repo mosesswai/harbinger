@@ -23,7 +23,7 @@ The top level module, [code.py](code.py), is the controller responsible for upda
     <img src="https://user-images.githubusercontent.com/18386420/136154583-1e70e1b5-f8b6-4610-926c-b464f7f66768.gif" width=40% height=40%>
 
 ### Privacy
-The project stores sensitive information like WiFi passwords, tokens and API keys in a file called **secrets.py** that is not public (following [Adafruits' CircuitPython framework recommendation](https://learn.adafruit.com/adafruit-magtag/internet-connect)). In this fashion, the actual Google Sheet URLs are stored in secrets.py. The URL format is:
+The project stores sensitive information like WiFi passwords, tokens and API keys in a file called **secrets.py** that is not public (following [Adafruits' CircuitPython framework recommendation](https://learn.adafruit.com/adafruit-matrixportal-m4/internet-connect)). In this fashion, the actual Google Sheet URLs are stored in secrets.py. The URL format is:
 ```
 https://sheets.googleapis.com/v4/spreadsheets/*google_sheet_code*/values/*spreadsheet_tab_name*?alt=json&key=*API_key*
 ```
